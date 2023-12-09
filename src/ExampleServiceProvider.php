@@ -2,9 +2,9 @@
 
 namespace Cremir\Example;
 
+use Cremir\Example\Commands\ExampleCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Cremir\Example\Commands\ExampleCommand;
 
 class ExampleServiceProvider extends PackageServiceProvider
 {

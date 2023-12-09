@@ -2,9 +2,9 @@
 
 namespace Cremir\Example\Tests;
 
+use Cremir\Example\ExampleServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Cremir\Example\ExampleServiceProvider;
 
 class TestCase extends Orchestra
 {
